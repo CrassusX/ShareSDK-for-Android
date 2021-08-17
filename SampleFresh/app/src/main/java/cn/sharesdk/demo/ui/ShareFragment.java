@@ -279,7 +279,7 @@ public class ShareFragment extends BaseFragment implements CallBackShotImageView
 					}
 
 					@Override
-					public void onFailed(String msg) {
+					public void onFailed(String msg, int i) {
 						Log.e("ShareSDK", " onFailed " + msg);
 					}
 				});

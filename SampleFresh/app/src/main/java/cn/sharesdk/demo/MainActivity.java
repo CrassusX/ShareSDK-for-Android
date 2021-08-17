@@ -129,7 +129,7 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 			}
 
 			@Override
-			public void onFailed(Throwable throwable) {
+			public void onFailed(Throwable throwable, int i) {
 				Log.d("ShareSDK", "onFailed 视频二维码解析失败 " + throwable);
 			}
 		});
